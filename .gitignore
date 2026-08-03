@@ -1,5 +1,22 @@
+# Virtual environment
 .venv/
+
+# Python bytecode/cache
 __pycache__/
-*.pyc
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.egg-info/
+
+# Secrets
 .env
+
+# Downloaded model files (large, fetched on demand — see README)
 models/
+
+# OS
+.DS_Store
+
+# Logs
+*.log
